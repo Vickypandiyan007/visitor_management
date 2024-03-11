@@ -13,7 +13,7 @@
     "install-Visitor": "cd Visitor && yarn add vite"
   },
   "devDependencies": {
-  "vite": "^2.7.0"
+  "vite": "^5.0.11"
 }
     "keywords": [],
   "author": "",
