@@ -1,0 +1,37 @@
+.lap {
+  background-image: url("./assets/lap1.png") !important;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: 20px;
+}
+.nolap {
+  
+  max-width: 100%;
+  height: 'auto';
+  display: 'block';
+  
+}
+.lapbutton{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.locationtwo{
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+ width: max-content;
+}
+.nolapdiv{
+  overflow: hidden;
+}
+.logo3 {
+  position: absolute;
+  top: 13vh;
+  left: 18vw;
+  max-width: 7vw;
+  height: auto;
+}

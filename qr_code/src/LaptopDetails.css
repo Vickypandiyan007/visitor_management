@@ -1,0 +1,43 @@
+.lappage{
+    position: relative;
+    width: 75vw;
+    height: 85vh;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 20px rgba(8, 7, 16, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-color: white;
+    overflow: auto;
+        
+}
+
+.WebStand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 50vh;
+   
+    margin-top: 30px;
+    box-shadow: 0 0 20px rgba(8, 7, 16, 0.1);
+    border-radius: 10px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lappage .second-laptop-btn {
+    position: absolute;
+    top: 2%; 
+    right: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Adjust the right distance */
+  }

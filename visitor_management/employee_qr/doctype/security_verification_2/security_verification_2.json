@@ -1,0 +1,185 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{employee}-{date}-{time}",
+ "creation": "2023-10-24 20:27:58.373557",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee",
+  "location",
+  "date",
+  "cbr_2",
+  "employee_name",
+  "time",
+  "status",
+  "laptop_section",
+  "laptop_image",
+  "confiscated_items",
+  "conf_list",
+  "sbr3",
+  "returned_list",
+  "cbr_1",
+  "pending_list",
+  "sbr_2",
+  "image_list",
+  "image_links",
+  "amended_from",
+  "emp_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "cbr_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "employee_name",
+   "fieldtype": "Data",
+   "label": "Employee Name"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Security Verification 2",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "laptop_section",
+   "fieldtype": "Section Break",
+   "label": "Laptop Verification"
+  },
+  {
+   "fieldname": "laptop_image",
+   "fieldtype": "Attach Image",
+   "label": "Laptop Image"
+  },
+  {
+   "fieldname": "confiscated_items",
+   "fieldtype": "Section Break",
+   "label": "Confiscated Items"
+  },
+  {
+   "fieldname": "conf_list",
+   "fieldtype": "Data",
+   "label": "Confiscated"
+  },
+  {
+   "fieldname": "sbr3",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "returned_list",
+   "fieldtype": "Data",
+   "label": "Returned"
+  },
+  {
+   "fieldname": "cbr_1",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "pending_list",
+   "fieldtype": "Data",
+   "label": "Pending"
+  },
+  {
+   "fieldname": "sbr_2",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "image_list",
+   "fieldtype": "Long Text",
+   "label": "Confiscated Items"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Security Verification 2",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "time",
+   "fieldtype": "Data",
+   "label": "Time"
+  },
+  {
+   "fieldname": "location",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Location"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Date"
+  },
+  {
+   "fieldname": "image_links",
+   "fieldtype": "Table",
+   "label": "Items",
+   "options": "Confiscated Items"
+  },
+  {
+   "fieldname": "employee",
+   "fieldtype": "Data",
+   "label": "Employee ID"
+  },
+  {
+   "fieldname": "emp_id",
+   "fieldtype": "Link",
+   "label": "Emp ID",
+   "options": "Employee"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-11-24 15:04:46.349935",
+ "modified_by": "Administrator",
+ "module": "Employee QR",
+ "name": "Security Verification 2",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Security",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

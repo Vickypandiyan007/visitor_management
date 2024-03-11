@@ -1,0 +1,26 @@
+.exit-con{
+    width: 64vw;
+    height: 80vh;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 20px rgba(8, 7, 16, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-color: white;
+    display: flex;
+    gap: 2%;   
+}
+
+.logo4 {
+    position: absolute;
+    top: 0vh;
+    left: 0vw;
+    max-width: 7vw;
+    height: auto;
+  }
+

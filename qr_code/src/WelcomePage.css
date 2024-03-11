@@ -1,0 +1,38 @@
+.Entry {
+    background-image: url("./assets/entryillustrator.png") !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 20px;
+  }
+  .Exit {
+    background-image: url("./assets/exitillustrator.png") !important;
+    background-repeat: no-repeat;
+    background-size: contain;
+    max-width: 100%;
+    height: 300px; /* Adjust the height to your desired size */
+    display: block;
+    position: relative;
+    background-position: center bottom; /* Positions the background image at the bottom center */
+  }
+  
+  .button1 {
+    margin-top: 16px;
+    width: max-content;
+    margin-right: 1px;
+    text-align: center;
+    font-family: 'Proxima Nova';
+    font-size: bold;
+  }
+.btnlogo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ .welcome-message {
+  font-weight: bold;
+  font-size: 2.8em;
+  color: #2d5831; /* Change to your preferred text color */
+  margin-bottom: 11%; /* Adjust the margin-top to move the heading up or down */
+  font-family: 'Proxima Nova';
+margin-top: 9vh;  }

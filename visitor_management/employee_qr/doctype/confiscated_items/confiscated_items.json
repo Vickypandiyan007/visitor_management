@@ -1,0 +1,30 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-25 11:46:37.308879",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "links"
+ ],
+ "fields": [
+  {
+   "fieldname": "links",
+   "fieldtype": "Long Text",
+   "label": "Link Image"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-10-27 22:47:40.694136",
+ "modified_by": "Administrator",
+ "module": "Employee QR",
+ "name": "Confiscated Items",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

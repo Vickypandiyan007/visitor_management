@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="https://agnikul.in/small-logo.png" />
+  <!-- for rough script -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
+  <!-- for rough script -->
+  <!-- <proxima-nova -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Proxima+Nova:400,700&display=swap" />
+  <!-- <proxima-nova -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Employee QR</title>
+</head>
+
+<body>
+  <div id="root"></div>
+  <script>window.csrf_token = '{{ frappe.session.csrf_token }}';</script>
+  <script type="module" src="/src/main.tsx"></script>
+</body>
+
+</html>

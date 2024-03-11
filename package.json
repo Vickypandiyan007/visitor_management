@@ -1,0 +1,16 @@
+{
+  "name": "visitor_management",
+  "version": "1.0.0",
+  "description": "Visitor Management System @ Agnikul Cosmos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "cd qr_code && yarn dev",
+    "visit-dev": "cd Visitor && yarn dev",
+    "build": "cd qr_code && yarn build" ,
+    "visit-build": "cd Visitor && yarn build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

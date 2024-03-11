@@ -1,0 +1,83 @@
+.background-container {
+  background-image: url("./assets/DataEntry.png");
+  background-size: 22% auto;
+  background-position: bottom left;
+  height: 90vh; /* Set the height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  width: 68vw;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.scanner-container {
+  width: 160vw; 
+  height:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.custom-reader {
+  width: 30vw;
+  height: 49vh;
+  border-radius: 15px;
+  background-position: center;
+  background-size: contain;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 38vh;
+  left: 38vw;
+  transform: translate(-50%, -50%);
+ 
+}
+.custom-reader-background {
+  background-image: url("./assets/Qrillustrator.png");
+  background-color: white;
+  background-size: 32% auto;
+  background-position: bottom left;
+  background-repeat: no-repeat;
+  width: 70vw;
+  height: 89vh;
+  position: relative;
+  border-radius: 10px;
+ 
+}
+
+
+
+.reader {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(32, 121, 9, 1) 42%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.firstlogo {
+  position: absolute;
+  top: 8vh; /* adjust the top position as needed */
+  left: 18vw; /* adjust the left position as needed */
+  max-width: 4vw; /* adjust the max-width as needed */
+  height: auto;
+}
+.secondlogo {
+  position: absolute;
+  top: 4vh; /* adjust the top position as needed */
+  left: 3vw; /* adjust the left position as needed */
+  max-width: 3vw; /* adjust the max-width as needed */
+  height: auto;
+}

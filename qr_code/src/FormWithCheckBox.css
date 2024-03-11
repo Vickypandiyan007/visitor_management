@@ -1,0 +1,40 @@
+.confi{
+    width: 64vw;
+    height: 89vh;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 0 0 20px rgba(8, 7, 16, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-color: white;
+    background-size: cover;
+}
+.configformlogo{
+    position: absolute;
+    bottom: 13vh;
+    left: 18vw;
+    max-width: 35vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+
+.formlogo {
+    position: absolute;
+    top: 10vh;
+    left: 21vw;
+    max-width: 3vw;
+    height: auto;
+  }
+
+
+
+

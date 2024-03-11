@@ -1,0 +1,41 @@
+.webcam-container-lap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 30vw;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+.webcam-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 25vw;
+    height: 40vh;
+    border-radius: 10px;
+}
+.webcam-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: #2D5831;
+    border-radius: 5px;
+    padding: 8px 15px;
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    transition: transform 0.3s ease;
+}
+.webcam-btn.retake {
+    
+  }
+  .webcam-btn.capture {
+   
+  }
+  .webcam-btn:hover {
+    transform: scale(1.1); /* Increasing size on hover */
+  }
