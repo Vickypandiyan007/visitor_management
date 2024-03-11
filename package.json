@@ -11,6 +11,7 @@
     "visit-build": "cd Visitor && yarn build"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.3",
     "vite": "^5.0.11"
   },
   "keywords": [],
