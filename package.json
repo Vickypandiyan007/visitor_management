@@ -9,13 +9,10 @@
     "visit-dev": "cd Visitor && yarn dev",
     "build": "cd qr_code && yarn build",
     "visit-build": "cd Visitor && yarn build" ,
-    "install-qr_code": "cd qr_code && yarn install" ,
-    "install-Visitor": "cd Visitor && yarn install"
+    "install-qr_code": "cd qr_code && yarn add vite" ,
+    "install-Visitor": "cd Visitor && yarn add vite"
   },
-  "devDependencies": {
-    "vite": "^5.0.11"
-  },
-  "keywords": [],
+    "keywords": [],
   "author": "",
   "license": "ISC"
 }
