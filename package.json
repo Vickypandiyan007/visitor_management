@@ -8,10 +8,11 @@
     "dev": "cd qr_code && yarn dev",
     "visit-dev": "cd Visitor && yarn dev",
     "build": "cd qr_code && yarn build",
-    "visit-build": "cd Visitor && yarn build"
+    "visit-build": "cd Visitor && yarn build" ,
+    "install-qr_code": "cd qr_code && yarn install" ,
+    "install-Visitor": "cd Visitor && yarn install"
   },
   "devDependencies": {
-    "@vitejs/plugin-react": "^4.0.3",
     "vite": "^5.0.11"
   },
   "keywords": [],
