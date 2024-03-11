@@ -12,6 +12,9 @@
     "install-qr_code": "cd qr_code && yarn add vite" ,
     "install-Visitor": "cd Visitor && yarn add vite"
   },
+  "devDependencies": {
+  "vite": "^2.7.0"
+}
     "keywords": [],
   "author": "",
   "license": "ISC"
