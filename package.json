@@ -9,8 +9,12 @@
     "visit-dev": "cd Visitor && yarn dev",
     "build": "cd qr_code && yarn build",
     "visit-build": "cd Visitor && yarn build",
-    "install-qr_code": "cd qr_code && yarn install",
-    "install-Visitor": "cd Visitor && yarn install"
+    "install-qr_code": "cd qr_code && yarn install && cd ..",
+    "install-Visitor": "cd Visitor && yarn install && cd .."
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.0.3",
@@ -20,4 +24,5 @@
   "author": "",
   "license": "ISC"
 }
+
 
