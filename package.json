@@ -13,6 +13,7 @@
     "install-Visitor": "cd Visitor && yarn add vite"
   },
   "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.3",
     "vite": "^5.0.11"
   },
   "keywords": [],
